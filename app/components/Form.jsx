@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import UploadImage from "./UploadImage";
+import UploadImage from "./uploadImage";
 import { useSession } from "next-auth/react";
 import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
 import UserTag from "./UserTag";
