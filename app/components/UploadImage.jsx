@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { HiArrowUpCircle } from "react-icons/hi2";
-function uploadImage({ setFile }) {
+function UploadImage({ setFile }) {
   const [selectedFile, setSelectedFile] = useState();
 
   return (
@@ -42,4 +42,4 @@ function uploadImage({ setFile }) {
   );
 }
 
-export default uploadImage;
+export default UploadImage;
